@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bear 0G</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(180deg, #0f0f1b 0%, #1a1a2e 100%);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: rgba(255, 255, 255, 0.02);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: #fff;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #aaa;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      text-align: center;
+      padding: 5rem 1rem 4rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    .hero .btns {
+      margin-top: 2rem;
+    }
+    .hero .btns a {
+      text-decoration: none;
+      margin: 0 1rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      background-color: #7b3fe4;
+      color: white;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .hero .btns a:hover {
+      background-color: #9e5fff;
+    }
+    .coin {
+      width: 150px;
+      margin: 2rem auto;
+    }
+    .spotlight {
+      background-color: #141421;
+      border-radius: 16px;
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 2rem;
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      align-items: center;
+    }
+    .spotlight img {
+      max-width: 200px;
+      border-radius: 12px;
+    }
+    .spotlight h2 {
+      margin-top: 0;
+    }
+    footer {
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+      padding: 2rem;
+    }
+    @media (max-width: 768px) {
+      .spotlight {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🐻 Bear 0G</div>
+  </header>
+
+  <div class="hero">
+  <img class="coin" src="/bear.png" alt="Bear Coin Logo">
+  <h1>Play, Build, and Meme on Bear 0G</h1>
+  <p>The $Bear token lives on the 0G Testnet — made for fun, made by degens.</p>
+  <div class="btns">
+    <a href="https://faucet.bear0g.fun" target="_blank">Get $Bear</a>
+    <a href="https://docs.0g.ai/developer-hub/testnet/testnet-overview" target="_blank">Start exploring on the 0g Lab testnet</a>
+  </div>
+</div>
+
+
+  <div class="spotlight">
+    <div>
+      <h2>What's Bear 0G?</h2>
+      <p>
+        Bear 0G is a community-driven token on the 0G testnet, combining memes, tech, and pure fun. No promises, just bears.
+      </p>
+    </div>
+    <img src="/0g.png" alt="Bear Spotlight">
+  </div>
+
+  <footer>
+    &copy; 2025 Bear 0G. For fun. On 0G Labs Testnet.
+  </footer>
+</body>
+</html>
